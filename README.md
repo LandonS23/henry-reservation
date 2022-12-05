@@ -1,8 +1,30 @@
 # Notes
 
-Due to time constraints I used create react app (see below) and did not write any test cases.
+- Due to time constraints I used create react app (see below) and did not write any test cases.
+- It is important to write test cases as well as only use what is needed (create react app adds some things).
+- Given a more intense project I would have probably used TypeScript as well instead of JS.
+- Auth would need to be added as well as a profile page (set email, password etc.).
 
-It is important to write test cases as well as only use what is needed (create react app adds some things).
+## Other considerations to be added:
+
+- Schedule timezones
+- Type of providers
+- Setting provider schedule for days of the week/date ranges instead of individual date/times
+- Lookup by reservation/confirmation number
+- Formatting data from api and sorting
+- Check for overlapping hours when providers are adding
+- Make use of context, Redux or something similar potentially
+- Look into cleaning up import statements
+- Better styling
+- Dark Mode :smile:
+
+## To run first:
+
+### `npm i`
+
+then:
+
+### `npm start`
 
 # Getting Started with Create React App
 
